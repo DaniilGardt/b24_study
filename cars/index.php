@@ -75,7 +75,7 @@ $elements = \Bitrix\Iblock\Elements\ElementCarTable::getList([
 foreach ($elements as $element) { // В цикле обходим каждый элемент коллекции. getModel называется так потому что мы выбирали MODEL
     pr('MODEL - '.$element->getModel()->getValue());
 }*/
-
+/*
 // Вариант sql запроса, считается более гибким и удобным методом чем предыдущий
 $elements = \Bitrix\Iblock\Elements\ElementCarTable::query()
     ->addSelect('NAME')
@@ -92,6 +92,37 @@ foreach ($elements as $key => $item) {
 //        $item->setModel('Q5');
 //        $item->save();
 //    }
+}*/
+
+// Получить свойства инфоблока
+/*$dbIblockProps = \Bitrix\Iblock\PropertyTable::getList(array(
+    'select' => array('*'),
+    'filter' => array('IBLOCK_ID' => $iBlockId),
+));
+
+while ($arIblockProps = $dbIblockProps->fetch()) {
+    pr($arIblockProps);
+}*/
+
+// Получить список элементов инфоблока. Затратный по ресурсам
+/*$dbItems = \Bitrix\Iblock\ElementTable::getList(array(
+    'select' => array('ID', 'NAME', 'IBLOCK_ID'),
+    'filter' => array('IBlock_ID' => $iBlockId),
+));
+// Используя класс ElementTable не можем получить свойства, только поля.
+// Чтобы обратиться к свойствам внутри цикла while используем CIBlockElement и его метод GetProperty
+$items = [];
+while ($arItem = $dbItems->fetch()) {
+    $dbProperty = \CIBlockElement::GetProperty(
+        $arItem['IBLOCK_ID'],
+        $arItem['ID']
+    );
+    while($arProperty = $dbProperty->fetch()) {
+        $arItem['PROPERTIES'][] = $arProperty;
+    }
+
+    $items [] =$arItem;
 }
+pr($items);*/
 
 require $_SERVER['DOCUMENT_ROOT'] . '/bitrix/footer.php';

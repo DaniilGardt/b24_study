@@ -1,5 +1,7 @@
 <?php
 
+include_once __DIR__ .'/../app/autoload.php'; //Добавляем в загрузку autoload, который в свою очередь подгружает остальные файлы
+
 define('DEBUG_FILE_NAME', $_SERVER["DOCUMENT_ROOT"] .'/logs/'.date("Y-m-d").'.log');
 
 if (file_exists(__DIR__ . '/classes/autoload.php')) {
