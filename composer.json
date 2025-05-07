@@ -1,0 +1,14 @@
+{
+  "name": "vendor_name/b24_study",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Daniil",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+  }
+}

@@ -1,0 +1,1610 @@
+OTUS - 2025-01-05 12:08:25 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
+OTUS - String offset cast occurred (0)
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/include.php:112
+OTUS - #0: require_once(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/include/prolog_before.php:19
+OTUS - #1: require_once(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/include/prolog.php:10
+OTUS - #2: require_once(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/header.php:1
+OTUS - #3: require(string)
+OTUS - 	/home/c/cc67951/public_html/dump.php:2
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-01-05 12:09:12 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
+OTUS - String offset cast occurred (0)
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/include.php:112
+OTUS - #0: require_once(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/include/prolog_before.php:19
+OTUS - #1: require_once(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/include/prolog.php:10
+OTUS - #2: require_once(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/header.php:1
+OTUS - #3: require(string)
+OTUS - 	/home/c/cc67951/public_html/dump.php:2
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-01-05 12:09:14 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
+OTUS - String offset cast occurred (0)
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/include.php:112
+OTUS - #0: require_once(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/include/prolog_before.php:19
+OTUS - #1: require_once(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/include/prolog.php:10
+OTUS - #2: require_once(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/header.php:1
+OTUS - #3: require(string)
+OTUS - 	/home/c/cc67951/public_html/dump.php:2
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-01-05 12:09:34 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
+OTUS - String offset cast occurred (0)
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/include.php:112
+OTUS - #0: require_once(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/include/prolog_before.php:19
+OTUS - #1: require_once(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/include/prolog.php:10
+OTUS - #2: require_once(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/header.php:1
+OTUS - #3: require(string)
+OTUS - 	/home/c/cc67951/public_html/dump.php:2
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-01-05 12:50:22 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [ErrorException] E_WARNING
+OTUS - String offset cast occurred (0)
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/include.php:112
+OTUS - #0: require_once(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/include/prolog_admin_before.php:39
+OTUS - #1: require_once(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/interface/desktop.php:10
+OTUS - #2: require(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/admin/index.php:2
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-01-15 16:17:53 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+OTUS - Call to undefined function pr() (0)
+OTUS - /home/c/cc67951/public_html/cars/index.php:22
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-01-16 12:24:02 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\ConnectionException] 
+OTUS - Mysql connect error [localhost]: (2002) Resource temporarily unavailable (400)
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:86
+OTUS - #0: Bitrix\Main\DB\MysqliConnection->connectInternal()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/data/connection.php:53
+OTUS - #1: Bitrix\Main\Data\Connection->getResource()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/database.php:305
+OTUS - #2: CAllDatabase->DoConnect()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/database.php:703
+OTUS - #3: CAllDatabase->ForSql(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/sqlwhere.php:762
+OTUS - #4: CAllSQLWhere->addStringFilter(array, boolean, string, string, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/sqlwhere.php:405
+OTUS - #5: CAllSQLWhere->GetQueryEx(array, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/sqlwhere.php:281
+OTUS - #6: CAllSQLWhere->GetQuery(array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:2245
+OTUS - #7: Bitrix\Main\ORM\Query\Query->buildWhere()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:2483
+OTUS - #8: Bitrix\Main\ORM\Query\Query->buildQuery()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:937
+OTUS - #9: Bitrix\Main\ORM\Query\Query->exec()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:513
+OTUS - #10: Bitrix\Main\ORM\Data\DataManager::getList(array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:364
+OTUS - #11: Bitrix\Main\ORM\Data\DataManager::getByPrimary(array, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/httpcontext.php:91
+OTUS - #12: Bitrix\Main\HttpContext->initializeCulture(string, NULL)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/include.php:51
+OTUS - #13: require_once(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/include/prolog_before.php:19
+OTUS - #14: require_once(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/services/ajax.php:27
+OTUS - #15: require(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/services/main/ajax.php:1
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-01-16 12:25:12 - Host: cc67951.tw1.ru - UNKNOWN - [Bitrix\Main\DB\SqlQueryException] 
+OTUS - Query error: [2006] MySQL server has gone away (400)
+OTUS - 
+OTUS - 					SELECT NAME, VALUE, COMMON
+OTUS - 					FROM b_user_option
+OTUS - 					WHERE (USER_ID = 1 OR (USER_ID = 0 AND COMMON = 'Y'))
+OTUS - 						AND CATEGORY = 'socialnetwork.space'
+OTUS - 				
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/classes/general/database.php:647
+OTUS - #0: CAllDatabase->Query(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/user_options.php:129
+OTUS - #1: CUserOptions::GetOption(string, string, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/socialnetwork/lib/Space/Service.php:19
+OTUS - #2: Bitrix\Socialnetwork\Space\Service::isAvailable()
+OTUS - 	/home/c/cc67951/public_html/bitrix/js/socialnetwork/slider/config.php:27
+OTUS - #3: include(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/ui/extension.php:109
+OTUS - #4: Bitrix\Main\UI\Extension::getConfig(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/ui/extension.php:45
+OTUS - #5: Bitrix\Main\UI\Extension::register(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/ui/extension.php:26
+OTUS - #6: Bitrix\Main\UI\Extension::load(array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/templates/bitrix24/header.php:43
+OTUS - #7: include_once(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/include/prolog_after.php:88
+OTUS - #8: require(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/include/prolog.php:11
+OTUS - #9: require_once(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/header.php:1
+OTUS - #10: require(string)
+OTUS - 	/home/c/cc67951/public_html/crm/configs/bp/index.php:6
+OTUS - #11: include_once(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/include/urlrewrite.php:178
+OTUS - #12: include_once(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/urlrewrite.php:2
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-01-16 12:25:12 - Host: cc67951.tw1.ru - UNKNOWN - [Bitrix\Main\DB\SqlQueryException] 
+OTUS - Query error: [2006] MySQL server has gone away (400)
+OTUS - 
+OTUS - 			SELECT
+OTUS - 				UF.ID
+OTUS - 				,UF.ENTITY_ID
+OTUS - 				,UF.FIELD_NAME
+OTUS - 				,UF.USER_TYPE_ID
+OTUS - 				,UF.XML_ID
+OTUS - 				,UF.SORT
+OTUS - 				,UF.MULTIPLE
+OTUS - 				,UF.MANDATORY
+OTUS - 				,UF.SHOW_FILTER
+OTUS - 				,UF.SHOW_IN_LIST
+OTUS - 				,UF.EDIT_IN_LIST
+OTUS - 				,UF.IS_SEARCHABLE
+OTUS - 				,UF.SETTINGS
+OTUS - 				
+OTUS - 			FROM
+OTUS - 				b_user_field UF
+OTUS - 				
+OTUS - 			
+OTUS - WHERE UF.ENTITY_ID = 'CRM_ACTIVITY'
+OTUS - ORDER BY UF.SORT ASC, UF.ID ASC
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/classes/general/database.php:647
+OTUS - #0: CAllDatabase->Query(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/usertype.php:290
+OTUS - #1: CAllUserTypeEntity::GetList(array, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/usertypemanager.php:209
+OTUS - #2: CUserTypeManager->GetUserFields(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/usertypesql.php:20
+OTUS - #3: CUserTypeSQL->SetEntity(string, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/classes/general/crm_entity_list_builder.php:293
+OTUS - #4: CCrmEntityListBuilder->Prepare(array, array, boolean, boolean, array, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/classes/general/crm_activity.php:2551
+OTUS - #5: CAllCrmActivity::GetList(array, array, boolean, boolean, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker/Activity.php:109
+OTUS - #6: Bitrix\Crm\Service\Broker\Activity->loadEntries(array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker/Activity.php:91
+OTUS - #7: Bitrix\Crm\Service\Broker\Activity->loadEntry(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker.php:59
+OTUS - #8: Bitrix\Crm\Service\Broker->getEntry(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker.php:13
+OTUS - #9: Bitrix\Crm\Service\Broker->getById(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/validator/activity/activityexists.php:37
+OTUS - #10: Bitrix\Crm\Controller\Validator\Activity\ActivityExists->validate(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/validator/validation.php:37
+OTUS - #11: Bitrix\Crm\Controller\Validator\Validation->validate(integer, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/timeline/activity.php:158
+OTUS - #12: Bitrix\Crm\Controller\Timeline\Activity->loadActivity(integer, integer, integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/timeline/activity.php:19
+OTUS - #13: Bitrix\Crm\Controller\Timeline\Activity->completeAction(integer, integer, integer)
+OTUS - 	
+OTUS - #14: ReflectionMethod->invokeArgs(object, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:207
+OTUS - #15: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/engine/action.php:117
+OTUS - #16: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/engine/controller.php:425
+OTUS - #17: Bitrix\Main\Engine\Controller->run(string, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/httpapplication.php:141
+OTUS - #18: Bitrix\Main\HttpApplication->runController(object, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/httpapplication.php:108
+OTUS - #19: Bitrix\Main\HttpApplication->run()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/services/ajax.php:29
+OTUS - #20: require(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/services/main/ajax.php:1
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-01-16 12:25:12 - Host: cc67951.tw1.ru - UNKNOWN - [Bitrix\Main\DB\SqlQueryException] 
+OTUS - Query error: [2006] MySQL server has gone away (400)
+OTUS - 
+OTUS - 			SELECT
+OTUS - 				UF.ID
+OTUS - 				,UF.ENTITY_ID
+OTUS - 				,UF.FIELD_NAME
+OTUS - 				,UF.USER_TYPE_ID
+OTUS - 				,UF.XML_ID
+OTUS - 				,UF.SORT
+OTUS - 				,UF.MULTIPLE
+OTUS - 				,UF.MANDATORY
+OTUS - 				,UF.SHOW_FILTER
+OTUS - 				,UF.SHOW_IN_LIST
+OTUS - 				,UF.EDIT_IN_LIST
+OTUS - 				,UF.IS_SEARCHABLE
+OTUS - 				,UF.SETTINGS
+OTUS - 				
+OTUS - 			FROM
+OTUS - 				b_user_field UF
+OTUS - 				
+OTUS - 			
+OTUS - WHERE UF.ENTITY_ID = 'CRM_ACTIVITY'
+OTUS - ORDER BY UF.SORT ASC, UF.ID ASC
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/classes/general/database.php:647
+OTUS - #0: CAllDatabase->Query(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/usertype.php:290
+OTUS - #1: CAllUserTypeEntity::GetList(array, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/usertypemanager.php:209
+OTUS - #2: CUserTypeManager->GetUserFields(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/usertypesql.php:20
+OTUS - #3: CUserTypeSQL->SetEntity(string, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/classes/general/crm_entity_list_builder.php:293
+OTUS - #4: CCrmEntityListBuilder->Prepare(array, array, boolean, boolean, array, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/classes/general/crm_activity.php:2551
+OTUS - #5: CAllCrmActivity::GetList(array, array, boolean, boolean, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker/Activity.php:109
+OTUS - #6: Bitrix\Crm\Service\Broker\Activity->loadEntries(array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker/Activity.php:91
+OTUS - #7: Bitrix\Crm\Service\Broker\Activity->loadEntry(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker.php:59
+OTUS - #8: Bitrix\Crm\Service\Broker->getEntry(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker.php:13
+OTUS - #9: Bitrix\Crm\Service\Broker->getById(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/validator/activity/activityexists.php:37
+OTUS - #10: Bitrix\Crm\Controller\Validator\Activity\ActivityExists->validate(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/validator/validation.php:37
+OTUS - #11: Bitrix\Crm\Controller\Validator\Validation->validate(integer, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/timeline/activity.php:158
+OTUS - #12: Bitrix\Crm\Controller\Timeline\Activity->loadActivity(integer, integer, integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/timeline/activity.php:19
+OTUS - #13: Bitrix\Crm\Controller\Timeline\Activity->completeAction(integer, integer, integer)
+OTUS - 	
+OTUS - #14: ReflectionMethod->invokeArgs(object, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:207
+OTUS - #15: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/engine/action.php:117
+OTUS - #16: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/engine/controller.php:425
+OTUS - #17: Bitrix\Main\Engine\Controller->run(string, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/httpapplication.php:141
+OTUS - #18: Bitrix\Main\HttpApplication->runController(object, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/httpapplication.php:108
+OTUS - #19: Bitrix\Main\HttpApplication->run()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/services/ajax.php:29
+OTUS - #20: require(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/services/main/ajax.php:1
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-01-16 12:25:13 - Host: cc67951.tw1.ru - UNKNOWN - [Bitrix\Main\DB\SqlQueryException] 
+OTUS - Query error: [2006] MySQL server has gone away (400)
+OTUS - 
+OTUS - 			SELECT
+OTUS - 				UF.ID
+OTUS - 				,UF.ENTITY_ID
+OTUS - 				,UF.FIELD_NAME
+OTUS - 				,UF.USER_TYPE_ID
+OTUS - 				,UF.XML_ID
+OTUS - 				,UF.SORT
+OTUS - 				,UF.MULTIPLE
+OTUS - 				,UF.MANDATORY
+OTUS - 				,UF.SHOW_FILTER
+OTUS - 				,UF.SHOW_IN_LIST
+OTUS - 				,UF.EDIT_IN_LIST
+OTUS - 				,UF.IS_SEARCHABLE
+OTUS - 				,UF.SETTINGS
+OTUS - 				
+OTUS - 			FROM
+OTUS - 				b_user_field UF
+OTUS - 				
+OTUS - 			
+OTUS - WHERE UF.ENTITY_ID = 'CRM_ACTIVITY'
+OTUS - ORDER BY UF.SORT ASC, UF.ID ASC
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/classes/general/database.php:647
+OTUS - #0: CAllDatabase->Query(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/usertype.php:290
+OTUS - #1: CAllUserTypeEntity::GetList(array, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/usertypemanager.php:209
+OTUS - #2: CUserTypeManager->GetUserFields(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/usertypesql.php:20
+OTUS - #3: CUserTypeSQL->SetEntity(string, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/classes/general/crm_entity_list_builder.php:293
+OTUS - #4: CCrmEntityListBuilder->Prepare(array, array, boolean, boolean, array, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/classes/general/crm_activity.php:2551
+OTUS - #5: CAllCrmActivity::GetList(array, array, boolean, boolean, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker/Activity.php:109
+OTUS - #6: Bitrix\Crm\Service\Broker\Activity->loadEntries(array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker/Activity.php:91
+OTUS - #7: Bitrix\Crm\Service\Broker\Activity->loadEntry(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker.php:59
+OTUS - #8: Bitrix\Crm\Service\Broker->getEntry(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker.php:13
+OTUS - #9: Bitrix\Crm\Service\Broker->getById(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/validator/activity/activityexists.php:37
+OTUS - #10: Bitrix\Crm\Controller\Validator\Activity\ActivityExists->validate(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/validator/validation.php:37
+OTUS - #11: Bitrix\Crm\Controller\Validator\Validation->validate(integer, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/timeline/activity.php:158
+OTUS - #12: Bitrix\Crm\Controller\Timeline\Activity->loadActivity(integer, integer, integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/timeline/activity.php:19
+OTUS - #13: Bitrix\Crm\Controller\Timeline\Activity->completeAction(integer, integer, integer)
+OTUS - 	
+OTUS - #14: ReflectionMethod->invokeArgs(object, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:207
+OTUS - #15: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/engine/action.php:117
+OTUS - #16: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/engine/controller.php:425
+OTUS - #17: Bitrix\Main\Engine\Controller->run(string, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/httpapplication.php:141
+OTUS - #18: Bitrix\Main\HttpApplication->runController(object, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/httpapplication.php:108
+OTUS - #19: Bitrix\Main\HttpApplication->run()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/services/ajax.php:29
+OTUS - #20: require(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/services/main/ajax.php:1
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-01-16 12:25:13 - Host: cc67951.tw1.ru - UNKNOWN - [Bitrix\Main\DB\SqlQueryException] 
+OTUS - Query error: [2006] MySQL server has gone away (400)
+OTUS - 
+OTUS - 			SELECT
+OTUS - 				UF.ID
+OTUS - 				,UF.ENTITY_ID
+OTUS - 				,UF.FIELD_NAME
+OTUS - 				,UF.USER_TYPE_ID
+OTUS - 				,UF.XML_ID
+OTUS - 				,UF.SORT
+OTUS - 				,UF.MULTIPLE
+OTUS - 				,UF.MANDATORY
+OTUS - 				,UF.SHOW_FILTER
+OTUS - 				,UF.SHOW_IN_LIST
+OTUS - 				,UF.EDIT_IN_LIST
+OTUS - 				,UF.IS_SEARCHABLE
+OTUS - 				,UF.SETTINGS
+OTUS - 				
+OTUS - 			FROM
+OTUS - 				b_user_field UF
+OTUS - 				
+OTUS - 			
+OTUS - WHERE UF.ENTITY_ID = 'CRM_ACTIVITY'
+OTUS - ORDER BY UF.SORT ASC, UF.ID ASC
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/classes/general/database.php:647
+OTUS - #0: CAllDatabase->Query(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/usertype.php:290
+OTUS - #1: CAllUserTypeEntity::GetList(array, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/usertypemanager.php:209
+OTUS - #2: CUserTypeManager->GetUserFields(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/usertypesql.php:20
+OTUS - #3: CUserTypeSQL->SetEntity(string, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/classes/general/crm_entity_list_builder.php:293
+OTUS - #4: CCrmEntityListBuilder->Prepare(array, array, boolean, boolean, array, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/classes/general/crm_activity.php:2551
+OTUS - #5: CAllCrmActivity::GetList(array, array, boolean, boolean, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker/Activity.php:109
+OTUS - #6: Bitrix\Crm\Service\Broker\Activity->loadEntries(array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker/Activity.php:91
+OTUS - #7: Bitrix\Crm\Service\Broker\Activity->loadEntry(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker.php:59
+OTUS - #8: Bitrix\Crm\Service\Broker->getEntry(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker.php:13
+OTUS - #9: Bitrix\Crm\Service\Broker->getById(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/validator/activity/activityexists.php:37
+OTUS - #10: Bitrix\Crm\Controller\Validator\Activity\ActivityExists->validate(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/validator/validation.php:37
+OTUS - #11: Bitrix\Crm\Controller\Validator\Validation->validate(integer, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/timeline/activity.php:158
+OTUS - #12: Bitrix\Crm\Controller\Timeline\Activity->loadActivity(integer, integer, integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/timeline/activity.php:19
+OTUS - #13: Bitrix\Crm\Controller\Timeline\Activity->completeAction(integer, integer, integer)
+OTUS - 	
+OTUS - #14: ReflectionMethod->invokeArgs(object, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:207
+OTUS - #15: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/engine/action.php:117
+OTUS - #16: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/engine/controller.php:425
+OTUS - #17: Bitrix\Main\Engine\Controller->run(string, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/httpapplication.php:141
+OTUS - #18: Bitrix\Main\HttpApplication->runController(object, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/httpapplication.php:108
+OTUS - #19: Bitrix\Main\HttpApplication->run()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/services/ajax.php:29
+OTUS - #20: require(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/services/main/ajax.php:1
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-01-16 12:25:13 - Host: cc67951.tw1.ru - UNKNOWN - [Bitrix\Main\DB\SqlQueryException] 
+OTUS - Query error: [2006] MySQL server has gone away (400)
+OTUS - 
+OTUS - 			SELECT
+OTUS - 				UF.ID
+OTUS - 				,UF.ENTITY_ID
+OTUS - 				,UF.FIELD_NAME
+OTUS - 				,UF.USER_TYPE_ID
+OTUS - 				,UF.XML_ID
+OTUS - 				,UF.SORT
+OTUS - 				,UF.MULTIPLE
+OTUS - 				,UF.MANDATORY
+OTUS - 				,UF.SHOW_FILTER
+OTUS - 				,UF.SHOW_IN_LIST
+OTUS - 				,UF.EDIT_IN_LIST
+OTUS - 				,UF.IS_SEARCHABLE
+OTUS - 				,UF.SETTINGS
+OTUS - 				
+OTUS - 			FROM
+OTUS - 				b_user_field UF
+OTUS - 				
+OTUS - 			
+OTUS - WHERE UF.ENTITY_ID = 'CRM_ACTIVITY'
+OTUS - ORDER BY UF.SORT ASC, UF.ID ASC
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/classes/general/database.php:647
+OTUS - #0: CAllDatabase->Query(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/usertype.php:290
+OTUS - #1: CAllUserTypeEntity::GetList(array, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/usertypemanager.php:209
+OTUS - #2: CUserTypeManager->GetUserFields(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/usertypesql.php:20
+OTUS - #3: CUserTypeSQL->SetEntity(string, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/classes/general/crm_entity_list_builder.php:293
+OTUS - #4: CCrmEntityListBuilder->Prepare(array, array, boolean, boolean, array, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/classes/general/crm_activity.php:2551
+OTUS - #5: CAllCrmActivity::GetList(array, array, boolean, boolean, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker/Activity.php:109
+OTUS - #6: Bitrix\Crm\Service\Broker\Activity->loadEntries(array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker/Activity.php:91
+OTUS - #7: Bitrix\Crm\Service\Broker\Activity->loadEntry(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker.php:59
+OTUS - #8: Bitrix\Crm\Service\Broker->getEntry(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker.php:13
+OTUS - #9: Bitrix\Crm\Service\Broker->getById(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/validator/activity/activityexists.php:37
+OTUS - #10: Bitrix\Crm\Controller\Validator\Activity\ActivityExists->validate(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/validator/validation.php:37
+OTUS - #11: Bitrix\Crm\Controller\Validator\Validation->validate(integer, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/timeline/activity.php:158
+OTUS - #12: Bitrix\Crm\Controller\Timeline\Activity->loadActivity(integer, integer, integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/timeline/activity.php:19
+OTUS - #13: Bitrix\Crm\Controller\Timeline\Activity->completeAction(integer, integer, integer)
+OTUS - 	
+OTUS - #14: ReflectionMethod->invokeArgs(object, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:207
+OTUS - #15: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/engine/action.php:117
+OTUS - #16: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/engine/controller.php:425
+OTUS - #17: Bitrix\Main\Engine\Controller->run(string, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/httpapplication.php:141
+OTUS - #18: Bitrix\Main\HttpApplication->runController(object, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/httpapplication.php:108
+OTUS - #19: Bitrix\Main\HttpApplication->run()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/services/ajax.php:29
+OTUS - #20: require(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/services/main/ajax.php:1
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-01-16 12:25:14 - Host: cc67951.tw1.ru - UNKNOWN - [Bitrix\Main\DB\SqlQueryException] 
+OTUS - Query error: [2006] MySQL server has gone away (400)
+OTUS - 
+OTUS - 			SELECT
+OTUS - 				UF.ID
+OTUS - 				,UF.ENTITY_ID
+OTUS - 				,UF.FIELD_NAME
+OTUS - 				,UF.USER_TYPE_ID
+OTUS - 				,UF.XML_ID
+OTUS - 				,UF.SORT
+OTUS - 				,UF.MULTIPLE
+OTUS - 				,UF.MANDATORY
+OTUS - 				,UF.SHOW_FILTER
+OTUS - 				,UF.SHOW_IN_LIST
+OTUS - 				,UF.EDIT_IN_LIST
+OTUS - 				,UF.IS_SEARCHABLE
+OTUS - 				,UF.SETTINGS
+OTUS - 				
+OTUS - 			FROM
+OTUS - 				b_user_field UF
+OTUS - 				
+OTUS - 			
+OTUS - WHERE UF.ENTITY_ID = 'CRM_ACTIVITY'
+OTUS - ORDER BY UF.SORT ASC, UF.ID ASC
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/classes/general/database.php:647
+OTUS - #0: CAllDatabase->Query(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/usertype.php:290
+OTUS - #1: CAllUserTypeEntity::GetList(array, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/usertypemanager.php:209
+OTUS - #2: CUserTypeManager->GetUserFields(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/usertypesql.php:20
+OTUS - #3: CUserTypeSQL->SetEntity(string, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/classes/general/crm_entity_list_builder.php:293
+OTUS - #4: CCrmEntityListBuilder->Prepare(array, array, boolean, boolean, array, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/classes/general/crm_activity.php:2551
+OTUS - #5: CAllCrmActivity::GetList(array, array, boolean, boolean, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker/Activity.php:109
+OTUS - #6: Bitrix\Crm\Service\Broker\Activity->loadEntries(array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker/Activity.php:91
+OTUS - #7: Bitrix\Crm\Service\Broker\Activity->loadEntry(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker.php:59
+OTUS - #8: Bitrix\Crm\Service\Broker->getEntry(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker.php:13
+OTUS - #9: Bitrix\Crm\Service\Broker->getById(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/validator/activity/activityexists.php:37
+OTUS - #10: Bitrix\Crm\Controller\Validator\Activity\ActivityExists->validate(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/validator/validation.php:37
+OTUS - #11: Bitrix\Crm\Controller\Validator\Validation->validate(integer, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/timeline/activity.php:158
+OTUS - #12: Bitrix\Crm\Controller\Timeline\Activity->loadActivity(integer, integer, integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/timeline/activity.php:19
+OTUS - #13: Bitrix\Crm\Controller\Timeline\Activity->completeAction(integer, integer, integer)
+OTUS - 	
+OTUS - #14: ReflectionMethod->invokeArgs(object, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:207
+OTUS - #15: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/engine/action.php:117
+OTUS - #16: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/engine/controller.php:425
+OTUS - #17: Bitrix\Main\Engine\Controller->run(string, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/httpapplication.php:141
+OTUS - #18: Bitrix\Main\HttpApplication->runController(object, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/httpapplication.php:108
+OTUS - #19: Bitrix\Main\HttpApplication->run()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/services/ajax.php:29
+OTUS - #20: require(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/services/main/ajax.php:1
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-01-16 12:25:14 - Host: cc67951.tw1.ru - UNKNOWN - [Bitrix\Main\DB\SqlQueryException] 
+OTUS - Query error: [2006] MySQL server has gone away (400)
+OTUS - 
+OTUS - 			SELECT
+OTUS - 				UF.ID
+OTUS - 				,UF.ENTITY_ID
+OTUS - 				,UF.FIELD_NAME
+OTUS - 				,UF.USER_TYPE_ID
+OTUS - 				,UF.XML_ID
+OTUS - 				,UF.SORT
+OTUS - 				,UF.MULTIPLE
+OTUS - 				,UF.MANDATORY
+OTUS - 				,UF.SHOW_FILTER
+OTUS - 				,UF.SHOW_IN_LIST
+OTUS - 				,UF.EDIT_IN_LIST
+OTUS - 				,UF.IS_SEARCHABLE
+OTUS - 				,UF.SETTINGS
+OTUS - 				
+OTUS - 			FROM
+OTUS - 				b_user_field UF
+OTUS - 				
+OTUS - 			
+OTUS - WHERE UF.ENTITY_ID = 'CRM_ACTIVITY'
+OTUS - ORDER BY UF.SORT ASC, UF.ID ASC
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/classes/general/database.php:647
+OTUS - #0: CAllDatabase->Query(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/usertype.php:290
+OTUS - #1: CAllUserTypeEntity::GetList(array, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/usertypemanager.php:209
+OTUS - #2: CUserTypeManager->GetUserFields(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/usertypesql.php:20
+OTUS - #3: CUserTypeSQL->SetEntity(string, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/classes/general/crm_entity_list_builder.php:293
+OTUS - #4: CCrmEntityListBuilder->Prepare(array, array, boolean, boolean, array, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/classes/general/crm_activity.php:2551
+OTUS - #5: CAllCrmActivity::GetList(array, array, boolean, boolean, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker/Activity.php:109
+OTUS - #6: Bitrix\Crm\Service\Broker\Activity->loadEntries(array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker/Activity.php:91
+OTUS - #7: Bitrix\Crm\Service\Broker\Activity->loadEntry(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker.php:59
+OTUS - #8: Bitrix\Crm\Service\Broker->getEntry(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker.php:13
+OTUS - #9: Bitrix\Crm\Service\Broker->getById(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/validator/activity/activityexists.php:37
+OTUS - #10: Bitrix\Crm\Controller\Validator\Activity\ActivityExists->validate(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/validator/validation.php:37
+OTUS - #11: Bitrix\Crm\Controller\Validator\Validation->validate(integer, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/timeline/activity.php:158
+OTUS - #12: Bitrix\Crm\Controller\Timeline\Activity->loadActivity(integer, integer, integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/timeline/activity.php:19
+OTUS - #13: Bitrix\Crm\Controller\Timeline\Activity->completeAction(integer, integer, integer)
+OTUS - 	
+OTUS - #14: ReflectionMethod->invokeArgs(object, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:207
+OTUS - #15: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/engine/action.php:117
+OTUS - #16: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/engine/controller.php:425
+OTUS - #17: Bitrix\Main\Engine\Controller->run(string, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/httpapplication.php:141
+OTUS - #18: Bitrix\Main\HttpApplication->runController(object, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/httpapplication.php:108
+OTUS - #19: Bitrix\Main\HttpApplication->run()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/services/ajax.php:29
+OTUS - #20: require(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/services/main/ajax.php:1
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-01-16 12:25:14 - Host: cc67951.tw1.ru - UNKNOWN - [Bitrix\Main\DB\SqlQueryException] 
+OTUS - Query error: [2006] MySQL server has gone away (400)
+OTUS - 
+OTUS - 			SELECT
+OTUS - 				UF.ID
+OTUS - 				,UF.ENTITY_ID
+OTUS - 				,UF.FIELD_NAME
+OTUS - 				,UF.USER_TYPE_ID
+OTUS - 				,UF.XML_ID
+OTUS - 				,UF.SORT
+OTUS - 				,UF.MULTIPLE
+OTUS - 				,UF.MANDATORY
+OTUS - 				,UF.SHOW_FILTER
+OTUS - 				,UF.SHOW_IN_LIST
+OTUS - 				,UF.EDIT_IN_LIST
+OTUS - 				,UF.IS_SEARCHABLE
+OTUS - 				,UF.SETTINGS
+OTUS - 				
+OTUS - 			FROM
+OTUS - 				b_user_field UF
+OTUS - 				
+OTUS - 			
+OTUS - WHERE UF.ENTITY_ID = 'CRM_ACTIVITY'
+OTUS - ORDER BY UF.SORT ASC, UF.ID ASC
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/classes/general/database.php:647
+OTUS - #0: CAllDatabase->Query(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/usertype.php:290
+OTUS - #1: CAllUserTypeEntity::GetList(array, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/usertypemanager.php:209
+OTUS - #2: CUserTypeManager->GetUserFields(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/usertypesql.php:20
+OTUS - #3: CUserTypeSQL->SetEntity(string, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/classes/general/crm_entity_list_builder.php:293
+OTUS - #4: CCrmEntityListBuilder->Prepare(array, array, boolean, boolean, array, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/classes/general/crm_activity.php:2551
+OTUS - #5: CAllCrmActivity::GetList(array, array, boolean, boolean, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker/Activity.php:109
+OTUS - #6: Bitrix\Crm\Service\Broker\Activity->loadEntries(array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker/Activity.php:91
+OTUS - #7: Bitrix\Crm\Service\Broker\Activity->loadEntry(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker.php:59
+OTUS - #8: Bitrix\Crm\Service\Broker->getEntry(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker.php:13
+OTUS - #9: Bitrix\Crm\Service\Broker->getById(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/validator/activity/activityexists.php:37
+OTUS - #10: Bitrix\Crm\Controller\Validator\Activity\ActivityExists->validate(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/validator/validation.php:37
+OTUS - #11: Bitrix\Crm\Controller\Validator\Validation->validate(integer, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/timeline/activity.php:158
+OTUS - #12: Bitrix\Crm\Controller\Timeline\Activity->loadActivity(integer, integer, integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/timeline/activity.php:19
+OTUS - #13: Bitrix\Crm\Controller\Timeline\Activity->completeAction(integer, integer, integer)
+OTUS - 	
+OTUS - #14: ReflectionMethod->invokeArgs(object, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:207
+OTUS - #15: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/engine/action.php:117
+OTUS - #16: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/engine/controller.php:425
+OTUS - #17: Bitrix\Main\Engine\Controller->run(string, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/httpapplication.php:141
+OTUS - #18: Bitrix\Main\HttpApplication->runController(object, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/httpapplication.php:108
+OTUS - #19: Bitrix\Main\HttpApplication->run()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/services/ajax.php:29
+OTUS - #20: require(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/services/main/ajax.php:1
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-01-16 12:25:14 - Host: cc67951.tw1.ru - UNKNOWN - [Bitrix\Main\DB\SqlQueryException] 
+OTUS - Query error: [2006] MySQL server has gone away (400)
+OTUS - 
+OTUS - 			SELECT
+OTUS - 				UF.ID
+OTUS - 				,UF.ENTITY_ID
+OTUS - 				,UF.FIELD_NAME
+OTUS - 				,UF.USER_TYPE_ID
+OTUS - 				,UF.XML_ID
+OTUS - 				,UF.SORT
+OTUS - 				,UF.MULTIPLE
+OTUS - 				,UF.MANDATORY
+OTUS - 				,UF.SHOW_FILTER
+OTUS - 				,UF.SHOW_IN_LIST
+OTUS - 				,UF.EDIT_IN_LIST
+OTUS - 				,UF.IS_SEARCHABLE
+OTUS - 				,UF.SETTINGS
+OTUS - 				
+OTUS - 			FROM
+OTUS - 				b_user_field UF
+OTUS - 				
+OTUS - 			
+OTUS - WHERE UF.ENTITY_ID = 'CRM_ACTIVITY'
+OTUS - ORDER BY UF.SORT ASC, UF.ID ASC
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/classes/general/database.php:647
+OTUS - #0: CAllDatabase->Query(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/usertype.php:290
+OTUS - #1: CAllUserTypeEntity::GetList(array, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/usertypemanager.php:209
+OTUS - #2: CUserTypeManager->GetUserFields(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/usertypesql.php:20
+OTUS - #3: CUserTypeSQL->SetEntity(string, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/classes/general/crm_entity_list_builder.php:293
+OTUS - #4: CCrmEntityListBuilder->Prepare(array, array, boolean, boolean, array, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/classes/general/crm_activity.php:2551
+OTUS - #5: CAllCrmActivity::GetList(array, array, boolean, boolean, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker/Activity.php:109
+OTUS - #6: Bitrix\Crm\Service\Broker\Activity->loadEntries(array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker/Activity.php:91
+OTUS - #7: Bitrix\Crm\Service\Broker\Activity->loadEntry(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker.php:59
+OTUS - #8: Bitrix\Crm\Service\Broker->getEntry(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker.php:13
+OTUS - #9: Bitrix\Crm\Service\Broker->getById(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/validator/activity/activityexists.php:37
+OTUS - #10: Bitrix\Crm\Controller\Validator\Activity\ActivityExists->validate(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/validator/validation.php:37
+OTUS - #11: Bitrix\Crm\Controller\Validator\Validation->validate(integer, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/timeline/activity.php:158
+OTUS - #12: Bitrix\Crm\Controller\Timeline\Activity->loadActivity(integer, integer, integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/timeline/activity.php:19
+OTUS - #13: Bitrix\Crm\Controller\Timeline\Activity->completeAction(integer, integer, integer)
+OTUS - 	
+OTUS - #14: ReflectionMethod->invokeArgs(object, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:207
+OTUS - #15: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/engine/action.php:117
+OTUS - #16: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/engine/controller.php:425
+OTUS - #17: Bitrix\Main\Engine\Controller->run(string, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/httpapplication.php:141
+OTUS - #18: Bitrix\Main\HttpApplication->runController(object, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/httpapplication.php:108
+OTUS - #19: Bitrix\Main\HttpApplication->run()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/services/ajax.php:29
+OTUS - #20: require(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/services/main/ajax.php:1
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-01-16 12:25:15 - Host: cc67951.tw1.ru - UNKNOWN - [Bitrix\Main\DB\SqlQueryException] 
+OTUS - Query error: [2006] MySQL server has gone away (400)
+OTUS - 
+OTUS - 			SELECT
+OTUS - 				UF.ID
+OTUS - 				,UF.ENTITY_ID
+OTUS - 				,UF.FIELD_NAME
+OTUS - 				,UF.USER_TYPE_ID
+OTUS - 				,UF.XML_ID
+OTUS - 				,UF.SORT
+OTUS - 				,UF.MULTIPLE
+OTUS - 				,UF.MANDATORY
+OTUS - 				,UF.SHOW_FILTER
+OTUS - 				,UF.SHOW_IN_LIST
+OTUS - 				,UF.EDIT_IN_LIST
+OTUS - 				,UF.IS_SEARCHABLE
+OTUS - 				,UF.SETTINGS
+OTUS - 				
+OTUS - 			FROM
+OTUS - 				b_user_field UF
+OTUS - 				
+OTUS - 			
+OTUS - WHERE UF.ENTITY_ID = 'CRM_ACTIVITY'
+OTUS - ORDER BY UF.SORT ASC, UF.ID ASC
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/classes/general/database.php:647
+OTUS - #0: CAllDatabase->Query(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/usertype.php:290
+OTUS - #1: CAllUserTypeEntity::GetList(array, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/usertypemanager.php:209
+OTUS - #2: CUserTypeManager->GetUserFields(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/usertypesql.php:20
+OTUS - #3: CUserTypeSQL->SetEntity(string, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/classes/general/crm_entity_list_builder.php:293
+OTUS - #4: CCrmEntityListBuilder->Prepare(array, array, boolean, boolean, array, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/classes/general/crm_activity.php:2551
+OTUS - #5: CAllCrmActivity::GetList(array, array, boolean, boolean, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker/Activity.php:109
+OTUS - #6: Bitrix\Crm\Service\Broker\Activity->loadEntries(array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker/Activity.php:91
+OTUS - #7: Bitrix\Crm\Service\Broker\Activity->loadEntry(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker.php:59
+OTUS - #8: Bitrix\Crm\Service\Broker->getEntry(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker.php:13
+OTUS - #9: Bitrix\Crm\Service\Broker->getById(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/validator/activity/activityexists.php:37
+OTUS - #10: Bitrix\Crm\Controller\Validator\Activity\ActivityExists->validate(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/validator/validation.php:37
+OTUS - #11: Bitrix\Crm\Controller\Validator\Validation->validate(integer, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/timeline/activity.php:158
+OTUS - #12: Bitrix\Crm\Controller\Timeline\Activity->loadActivity(integer, integer, integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/timeline/activity.php:19
+OTUS - #13: Bitrix\Crm\Controller\Timeline\Activity->completeAction(integer, integer, integer)
+OTUS - 	
+OTUS - #14: ReflectionMethod->invokeArgs(object, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:207
+OTUS - #15: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/engine/action.php:117
+OTUS - #16: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/engine/controller.php:425
+OTUS - #17: Bitrix\Main\Engine\Controller->run(string, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/httpapplication.php:141
+OTUS - #18: Bitrix\Main\HttpApplication->runController(object, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/httpapplication.php:108
+OTUS - #19: Bitrix\Main\HttpApplication->run()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/services/ajax.php:29
+OTUS - #20: require(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/services/main/ajax.php:1
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-01-16 12:25:15 - Host: cc67951.tw1.ru - UNKNOWN - [Bitrix\Main\DB\SqlQueryException] 
+OTUS - Query error: [2006] MySQL server has gone away (400)
+OTUS - 
+OTUS - 			SELECT
+OTUS - 				UF.ID
+OTUS - 				,UF.ENTITY_ID
+OTUS - 				,UF.FIELD_NAME
+OTUS - 				,UF.USER_TYPE_ID
+OTUS - 				,UF.XML_ID
+OTUS - 				,UF.SORT
+OTUS - 				,UF.MULTIPLE
+OTUS - 				,UF.MANDATORY
+OTUS - 				,UF.SHOW_FILTER
+OTUS - 				,UF.SHOW_IN_LIST
+OTUS - 				,UF.EDIT_IN_LIST
+OTUS - 				,UF.IS_SEARCHABLE
+OTUS - 				,UF.SETTINGS
+OTUS - 				
+OTUS - 			FROM
+OTUS - 				b_user_field UF
+OTUS - 				
+OTUS - 			
+OTUS - WHERE UF.ENTITY_ID = 'CRM_ACTIVITY'
+OTUS - ORDER BY UF.SORT ASC, UF.ID ASC
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/classes/general/database.php:647
+OTUS - #0: CAllDatabase->Query(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/usertype.php:290
+OTUS - #1: CAllUserTypeEntity::GetList(array, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/usertypemanager.php:209
+OTUS - #2: CUserTypeManager->GetUserFields(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/usertypesql.php:20
+OTUS - #3: CUserTypeSQL->SetEntity(string, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/classes/general/crm_entity_list_builder.php:293
+OTUS - #4: CCrmEntityListBuilder->Prepare(array, array, boolean, boolean, array, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/classes/general/crm_activity.php:2551
+OTUS - #5: CAllCrmActivity::GetList(array, array, boolean, boolean, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker/Activity.php:109
+OTUS - #6: Bitrix\Crm\Service\Broker\Activity->loadEntries(array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker/Activity.php:91
+OTUS - #7: Bitrix\Crm\Service\Broker\Activity->loadEntry(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker.php:59
+OTUS - #8: Bitrix\Crm\Service\Broker->getEntry(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker.php:13
+OTUS - #9: Bitrix\Crm\Service\Broker->getById(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/validator/activity/activityexists.php:37
+OTUS - #10: Bitrix\Crm\Controller\Validator\Activity\ActivityExists->validate(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/validator/validation.php:37
+OTUS - #11: Bitrix\Crm\Controller\Validator\Validation->validate(integer, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/timeline/activity.php:158
+OTUS - #12: Bitrix\Crm\Controller\Timeline\Activity->loadActivity(integer, integer, integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/timeline/activity.php:19
+OTUS - #13: Bitrix\Crm\Controller\Timeline\Activity->completeAction(integer, integer, integer)
+OTUS - 	
+OTUS - #14: ReflectionMethod->invokeArgs(object, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:207
+OTUS - #15: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/engine/action.php:117
+OTUS - #16: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/engine/controller.php:425
+OTUS - #17: Bitrix\Main\Engine\Controller->run(string, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/httpapplication.php:141
+OTUS - #18: Bitrix\Main\HttpApplication->runController(object, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/httpapplication.php:108
+OTUS - #19: Bitrix\Main\HttpApplication->run()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/services/ajax.php:29
+OTUS - #20: require(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/services/main/ajax.php:1
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-01-16 12:25:15 - Host: cc67951.tw1.ru - UNKNOWN - [Bitrix\Main\DB\SqlQueryException] 
+OTUS - Query error: [2006] MySQL server has gone away (400)
+OTUS - 
+OTUS - 			SELECT
+OTUS - 				UF.ID
+OTUS - 				,UF.ENTITY_ID
+OTUS - 				,UF.FIELD_NAME
+OTUS - 				,UF.USER_TYPE_ID
+OTUS - 				,UF.XML_ID
+OTUS - 				,UF.SORT
+OTUS - 				,UF.MULTIPLE
+OTUS - 				,UF.MANDATORY
+OTUS - 				,UF.SHOW_FILTER
+OTUS - 				,UF.SHOW_IN_LIST
+OTUS - 				,UF.EDIT_IN_LIST
+OTUS - 				,UF.IS_SEARCHABLE
+OTUS - 				,UF.SETTINGS
+OTUS - 				
+OTUS - 			FROM
+OTUS - 				b_user_field UF
+OTUS - 				
+OTUS - 			
+OTUS - WHERE UF.ENTITY_ID = 'CRM_ACTIVITY'
+OTUS - ORDER BY UF.SORT ASC, UF.ID ASC
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/classes/general/database.php:647
+OTUS - #0: CAllDatabase->Query(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/usertype.php:290
+OTUS - #1: CAllUserTypeEntity::GetList(array, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/usertypemanager.php:209
+OTUS - #2: CUserTypeManager->GetUserFields(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/usertypesql.php:20
+OTUS - #3: CUserTypeSQL->SetEntity(string, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/classes/general/crm_entity_list_builder.php:293
+OTUS - #4: CCrmEntityListBuilder->Prepare(array, array, boolean, boolean, array, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/classes/general/crm_activity.php:2551
+OTUS - #5: CAllCrmActivity::GetList(array, array, boolean, boolean, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker/Activity.php:109
+OTUS - #6: Bitrix\Crm\Service\Broker\Activity->loadEntries(array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker/Activity.php:91
+OTUS - #7: Bitrix\Crm\Service\Broker\Activity->loadEntry(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker.php:59
+OTUS - #8: Bitrix\Crm\Service\Broker->getEntry(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/Service/Broker.php:13
+OTUS - #9: Bitrix\Crm\Service\Broker->getById(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/validator/activity/activityexists.php:37
+OTUS - #10: Bitrix\Crm\Controller\Validator\Activity\ActivityExists->validate(integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/validator/validation.php:37
+OTUS - #11: Bitrix\Crm\Controller\Validator\Validation->validate(integer, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/timeline/activity.php:158
+OTUS - #12: Bitrix\Crm\Controller\Timeline\Activity->loadActivity(integer, integer, integer)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/crm/lib/controller/timeline/activity.php:19
+OTUS - #13: Bitrix\Crm\Controller\Timeline\Activity->completeAction(integer, integer, integer)
+OTUS - 	
+OTUS - #14: ReflectionMethod->invokeArgs(object, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:207
+OTUS - #15: Bitrix\Main\Engine\AutoWire\Binder->invoke()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/engine/action.php:117
+OTUS - #16: Bitrix\Main\Engine\Action->runWithSourceParametersList()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/engine/controller.php:425
+OTUS - #17: Bitrix\Main\Engine\Controller->run(string, array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/httpapplication.php:141
+OTUS - #18: Bitrix\Main\HttpApplication->runController(object, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/httpapplication.php:108
+OTUS - #19: Bitrix\Main\HttpApplication->run()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/services/ajax.php:29
+OTUS - #20: require(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/services/main/ajax.php:1
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-01-16 12:25:15 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\SqlQueryException] 
+OTUS - Mysql query error: (2006) MySQL server has gone away (400)
+OTUS - SELECT 
+OTUS - 	`bizproc_workflow_entity_workflow_instance`.`ID` AS `ID`
+OTUS - FROM `b_bp_workflow_instance` `bizproc_workflow_entity_workflow_instance` 
+OTUS - 
+OTUS - WHERE `bizproc_workflow_entity_workflow_instance`.`MODULE_ID` = 'crm'
+OTUS - AND `bizproc_workflow_entity_workflow_instance`.`ENTITY` = 'Bitrix\\Crm\\Integration\\BizProc\\Document\\Dynamic'
+OTUS - AND `bizproc_workflow_entity_workflow_instance`.`DOCUMENT_ID` = 'DYNAMIC_1036_3'
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:149
+OTUS - #0: Bitrix\Main\DB\MysqliConnection->queryInternal(string, array, NULL)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/db/connection.php:331
+OTUS - #1: Bitrix\Main\DB\Connection->query(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:3577
+OTUS - #2: Bitrix\Main\ORM\Query\Query->query(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:956
+OTUS - #3: Bitrix\Main\ORM\Query\Query->exec()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:513
+OTUS - #4: Bitrix\Main\ORM\Data\DataManager::getList(array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/bizproc/lib/workflow/entity/workflowinstance.php:122
+OTUS - #5: Bitrix\Bizproc\Workflow\Entity\WorkflowInstanceTable::getIdsByDocument(array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/bizproc/classes/general/document.php:121
+OTUS - #6: CBPDocument::getActiveStates(array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/components/bitrix/bizproc.document/ajax.php:173
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-01-16 12:25:15 - Host: cc67951.tw1.ru - UNKNOWN - [Bitrix\Main\DB\SqlQueryException] 
+OTUS - Query error: [2006] MySQL server has gone away (400)
+OTUS - 
+OTUS - 					SELECT NAME, VALUE, COMMON
+OTUS - 					FROM b_user_option
+OTUS - 					WHERE (USER_ID = 1 OR (USER_ID = 0 AND COMMON = 'Y'))
+OTUS - 						AND CATEGORY = 'socialnetwork.space'
+OTUS - 				
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/classes/general/database.php:647
+OTUS - #0: CAllDatabase->Query(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/classes/general/user_options.php:129
+OTUS - #1: CUserOptions::GetOption(string, string, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/socialnetwork/lib/Space/Service.php:19
+OTUS - #2: Bitrix\Socialnetwork\Space\Service::isAvailable()
+OTUS - 	/home/c/cc67951/public_html/bitrix/js/socialnetwork/slider/config.php:27
+OTUS - #3: include(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/ui/extension.php:109
+OTUS - #4: Bitrix\Main\UI\Extension::getConfig(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/ui/extension.php:45
+OTUS - #5: Bitrix\Main\UI\Extension::register(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/ui/extension.php:26
+OTUS - #6: Bitrix\Main\UI\Extension::load(array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/templates/bitrix24/header.php:43
+OTUS - #7: include_once(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/include/prolog_after.php:88
+OTUS - #8: require(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/include/prolog.php:11
+OTUS - #9: require_once(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/header.php:1
+OTUS - #10: require(string)
+OTUS - 	/home/c/cc67951/public_html/page/index.php:3
+OTUS - #11: include_once(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/include/urlrewrite.php:178
+OTUS - #12: include_once(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/urlrewrite.php:2
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-01-18 16:39:57 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+OTUS - Call to undefined function pr() (0)
+OTUS - /home/c/cc67951/public_html/cars/index.php:23
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-01-18 16:42:38 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+OTUS - Call to undefined function pr() (0)
+OTUS - /home/c/cc67951/public_html/cars/index.php:23
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-01-18 17:57:06 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+OTUS - Class name must be a valid object or a string (0)
+OTUS - /home/c/cc67951/public_html/cars/index.php:49
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-01-18 18:06:19 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+OTUS - Call to a member function get() on null (0)
+OTUS - /home/c/cc67951/public_html/cars/index.php:55
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-01-18 18:08:58 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+OTUS - Unknown field definition `PROPERTY_MODEL` (PROPERTY_MODEL) for \Bitrix\Iblock\Elements\ElementCar Entity. (100)
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+OTUS - #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:3485
+OTUS - #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:1215
+OTUS - #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:2451
+OTUS - #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:937
+OTUS - #4: Bitrix\Main\ORM\Query\Query->exec()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:513
+OTUS - #5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:364
+OTUS - #6: Bitrix\Main\ORM\Data\DataManager::getByPrimary(array, array)
+OTUS - 	/home/c/cc67951/public_html/cars/index.php:53
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-01-18 18:10:21 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+OTUS - Unknown field definition `PROPERTY_MODEL` (PROPERTY_MODEL) for \Bitrix\Iblock\Elements\ElementCar Entity. (100)
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+OTUS - #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:3485
+OTUS - #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:1215
+OTUS - #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:2451
+OTUS - #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:937
+OTUS - #4: Bitrix\Main\ORM\Query\Query->exec()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:513
+OTUS - #5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:364
+OTUS - #6: Bitrix\Main\ORM\Data\DataManager::getByPrimary(array, array)
+OTUS - 	/home/c/cc67951/public_html/cars/index.php:53
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-01-18 18:24:27 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+OTUS - Unknown field definition `MANUFACTURER` (MANUFACTURER) for \Bitrix\Iblock\Elements\ElementCar Entity. (100)
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+OTUS - #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:3485
+OTUS - #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:1215
+OTUS - #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:2451
+OTUS - #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:937
+OTUS - #4: Bitrix\Main\ORM\Query\Query->exec()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:513
+OTUS - #5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:364
+OTUS - #6: Bitrix\Main\ORM\Data\DataManager::getByPrimary(array, array)
+OTUS - 	/home/c/cc67951/public_html/cars/index.php:55
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-01-18 18:24:43 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+OTUS - Unknown field definition `MANUFACTURER` (MANUFACTURER) for \Bitrix\Iblock\Elements\ElementCar Entity. (100)
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+OTUS - #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:3485
+OTUS - #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:1215
+OTUS - #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:2451
+OTUS - #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:937
+OTUS - #4: Bitrix\Main\ORM\Query\Query->exec()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:513
+OTUS - #5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:364
+OTUS - #6: Bitrix\Main\ORM\Data\DataManager::getByPrimary(array, array)
+OTUS - 	/home/c/cc67951/public_html/cars/index.php:55
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-01-18 18:48:10 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+OTUS - Class "Bitrix\IBlock\Elements\ElementCarTable" not found (0)
+OTUS - /home/c/cc67951/public_html/cars/index.php:80
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-01-19 18:51:21 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+OTUS - Call to undefined method CIBlockProperty::GetProperty() (0)
+OTUS - /home/c/cc67951/public_html/cars/index.php:115
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-02-03 20:33:33 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+OTUS - Class "Models\Lists\CarsPropertyValuesTable" not found (0)
+OTUS - /home/c/cc67951/public_html/cars/orm-custom-model.php:19
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-02-03 20:34:53 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+OTUS - Class "CarTable" not found (0)
+OTUS - /home/c/cc67951/public_html/cars/orm-custom-model.php:19
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-02-03 20:35:33 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+OTUS - Class "carTable" not found (0)
+OTUS - /home/c/cc67951/public_html/cars/orm-custom-model.php:19
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-02-03 20:39:05 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+OTUS - Class "Models\Lists\CarsPropertyValuesTable" not found (0)
+OTUS - /home/c/cc67951/public_html/cars/orm-custom-model.php:19
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-02-03 20:40:18 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+OTUS - Class "Models\Lists\CarsPropertyValuesTable" not found (0)
+OTUS - /home/c/cc67951/public_html/cars/orm-custom-model.php:19
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-02-03 20:40:41 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+OTUS - Class "app\Models\Lists\CarsPropertyValuesTable" not found (0)
+OTUS - /home/c/cc67951/public_html/cars/orm-custom-model.php:19
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-02-03 20:41:58 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+OTUS - Class "Models\Lists\CarsPropertyValuesTable" not found (0)
+OTUS - /home/c/cc67951/public_html/cars/orm-custom-model.php:19
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-02-03 20:43:16 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+OTUS - Class "Models\Lists\CarsPropertyValuesTable" not found (0)
+OTUS - /home/c/cc67951/public_html/cars/orm-custom-model.php:9
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-02-03 20:47:57 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+OTUS - Unknown field definition `COUNTRY` (MANUFACTURER.COUNTRY) for \Models\Lists\CarManufacturerPropertyValues Entity. (100)
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+OTUS - #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:3485
+OTUS - #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:1215
+OTUS - #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:2451
+OTUS - #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:937
+OTUS - #4: Bitrix\Main\ORM\Query\Query->exec()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:1001
+OTUS - #5: Bitrix\Main\ORM\Query\Query->fetchAll()
+OTUS - 	/home/c/cc67951/public_html/cars/orm-custom-model.php:36
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-02-03 20:54:15 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+OTUS - Unknown field definition `COUNTRY` (MANUFACTURER.COUNTRY) for \Models\Lists\CarManufacturerPropertyValues Entity. (100)
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+OTUS - #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:3485
+OTUS - #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:1215
+OTUS - #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:2451
+OTUS - #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:937
+OTUS - #4: Bitrix\Main\ORM\Query\Query->exec()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:1001
+OTUS - #5: Bitrix\Main\ORM\Query\Query->fetchAll()
+OTUS - 	/home/c/cc67951/public_html/cars/orm-custom-model.php:36
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-02-03 20:57:07 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+OTUS - Unknown field definition `COUNTRY` (MANUFACTURER.COUNTRY) for \Models\Lists\CarManufacturerPropertyValues Entity. (100)
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+OTUS - #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:3485
+OTUS - #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:1215
+OTUS - #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:2451
+OTUS - #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:937
+OTUS - #4: Bitrix\Main\ORM\Query\Query->exec()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:1001
+OTUS - #5: Bitrix\Main\ORM\Query\Query->fetchAll()
+OTUS - 	/home/c/cc67951/public_html/cars/orm-custom-model.php:36
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-02-03 20:58:01 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+OTUS - Unknown field definition `COUNTRY` (MANUFACTURER.COUNTRY) for \Models\Lists\CarManufacturerPropertyValues Entity. (100)
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+OTUS - #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:3485
+OTUS - #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:1215
+OTUS - #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:2451
+OTUS - #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:937
+OTUS - #4: Bitrix\Main\ORM\Query\Query->exec()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:1001
+OTUS - #5: Bitrix\Main\ORM\Query\Query->fetchAll()
+OTUS - 	/home/c/cc67951/public_html/cars/orm-custom-model.php:36
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-02-03 21:06:30 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+OTUS - Unknown field definition `COUNTRY` (MANUFACTURER.COUNTRY) for \Models\Lists\CarManufacturerPropertyValues Entity. (100)
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+OTUS - #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:3485
+OTUS - #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:1215
+OTUS - #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:2451
+OTUS - #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:937
+OTUS - #4: Bitrix\Main\ORM\Query\Query->exec()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:1001
+OTUS - #5: Bitrix\Main\ORM\Query\Query->fetchAll()
+OTUS - 	/home/c/cc67951/public_html/cars/orm-custom-model.php:36
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-02-03 21:16:37 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+OTUS - Unknown field definition `COUNTRY` (MANUFACTURER.COUNTRY) for \Models\Lists\CarManufacturerPropertyValues Entity. (100)
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+OTUS - #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:3485
+OTUS - #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:1215
+OTUS - #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:2451
+OTUS - #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:937
+OTUS - #4: Bitrix\Main\ORM\Query\Query->exec()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:1001
+OTUS - #5: Bitrix\Main\ORM\Query\Query->fetchAll()
+OTUS - 	/home/c/cc67951/public_html/cars/orm-custom-model.php:37
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-02-03 21:21:32 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+OTUS - Unknown field definition `COUNTRY` (MANUFACTURER.COUNTRY) for \Models\Lists\CarManufacturerPropertyValues Entity. (100)
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+OTUS - #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:3485
+OTUS - #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:1215
+OTUS - #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:2451
+OTUS - #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:937
+OTUS - #4: Bitrix\Main\ORM\Query\Query->exec()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:1001
+OTUS - #5: Bitrix\Main\ORM\Query\Query->fetchAll()
+OTUS - 	/home/c/cc67951/public_html/cars/orm-custom-model.php:37
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-02-03 21:23:54 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+OTUS - Unknown field definition `COUNTRY` (MANUFACTURER.COUNTRY) for \Models\Lists\CarManufacturerPropertyValues Entity. (100)
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+OTUS - #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:3485
+OTUS - #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:1215
+OTUS - #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:2451
+OTUS - #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:937
+OTUS - #4: Bitrix\Main\ORM\Query\Query->exec()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:1001
+OTUS - #5: Bitrix\Main\ORM\Query\Query->fetchAll()
+OTUS - 	/home/c/cc67951/public_html/cars/orm-custom-model.php:37
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-02-03 21:26:47 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+OTUS - Unclosed '{' on line 8 (0)
+OTUS - /home/c/cc67951/public_html/local/app/Models/Lists/CarManufacturerPropertyValuesTable.php:22
+OTUS - #0: {closure}(string)
+OTUS - 	/home/c/cc67951/public_html/cars/orm-custom-model.php:33
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-02-03 21:27:10 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+OTUS - Class "Models\Lists\ReferenceField" not found (0)
+OTUS - /home/c/cc67951/public_html/local/app/Models/Lists/CarManufacturerPropertyValuesTable.php:14
+OTUS - #0: Models\Lists\CarManufacturerPropertyValuesTable::getMap()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/entity.php:231
+OTUS - #1: Bitrix\Main\ORM\Entity->initialize(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/entity.php:128
+OTUS - #2: Bitrix\Main\ORM\Entity::getInstanceDirect(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/entity.php:107
+OTUS - #3: Bitrix\Main\ORM\Entity::getInstance(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:84
+OTUS - #4: Bitrix\Main\ORM\Data\DataManager::getEntity()
+OTUS - 	/home/c/cc67951/public_html/cars/orm-custom-model.php:33
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-02-03 22:00:16 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+OTUS - Unknown field definition `MANUFACTURER_ID]` (MANUFACTURER_ID]) for \Models\Lists\CarsPropertyValues Entity. (100)
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+OTUS - #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:3485
+OTUS - #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:2769
+OTUS - #2: Bitrix\Main\ORM\Query\Query->prepareJoinReference(array, string, string, string, string, boolean)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:2111
+OTUS - #3: Bitrix\Main\ORM\Query\Query->buildJoinMap()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:2473
+OTUS - #4: Bitrix\Main\ORM\Query\Query->buildQuery()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:937
+OTUS - #5: Bitrix\Main\ORM\Query\Query->exec()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:1001
+OTUS - #6: Bitrix\Main\ORM\Query\Query->fetchAll()
+OTUS - 	/home/c/cc67951/public_html/cars/orm-custom-model.php:37
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-02-03 22:02:09 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+OTUS - Unknown field definition `MANUFACTURER_ID]` (MANUFACTURER_ID]) for \Models\Lists\CarsPropertyValues Entity. (100)
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+OTUS - #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:3485
+OTUS - #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:2769
+OTUS - #2: Bitrix\Main\ORM\Query\Query->prepareJoinReference(array, string, string, string, string, boolean)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:2111
+OTUS - #3: Bitrix\Main\ORM\Query\Query->buildJoinMap()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:2473
+OTUS - #4: Bitrix\Main\ORM\Query\Query->buildQuery()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:937
+OTUS - #5: Bitrix\Main\ORM\Query\Query->exec()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:1001
+OTUS - #6: Bitrix\Main\ORM\Query\Query->fetchAll()
+OTUS - 	/home/c/cc67951/public_html/cars/orm-custom-model.php:37
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-02-03 22:03:44 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+OTUS - Unknown field definition `MANUFACTURER_ID]` (MANUFACTURER_ID]) for \Models\Lists\CarsPropertyValues Entity. (100)
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+OTUS - #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:3485
+OTUS - #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:2769
+OTUS - #2: Bitrix\Main\ORM\Query\Query->prepareJoinReference(array, string, string, string, string, boolean)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:2111
+OTUS - #3: Bitrix\Main\ORM\Query\Query->buildJoinMap()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:2473
+OTUS - #4: Bitrix\Main\ORM\Query\Query->buildQuery()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:937
+OTUS - #5: Bitrix\Main\ORM\Query\Query->exec()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:1001
+OTUS - #6: Bitrix\Main\ORM\Query\Query->fetchAll()
+OTUS - 	/home/c/cc67951/public_html/cars/orm-custom-model.php:37
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-02-08 17:12:29 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+OTUS - Class "сarsTable" not found (0)
+OTUS - /home/c/cc67951/public_html/cars/orm-custom-model.php:41
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-02-08 17:13:19 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+OTUS - Unknown field definition `MANUFACTURER_ID]` (MANUFACTURER_ID]) for \Models\Lists\CarsPropertyValues Entity. (100)
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+OTUS - #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:3485
+OTUS - #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:2769
+OTUS - #2: Bitrix\Main\ORM\Query\Query->prepareJoinReference(array, string, string, string, string, boolean)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:2111
+OTUS - #3: Bitrix\Main\ORM\Query\Query->buildJoinMap()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:2473
+OTUS - #4: Bitrix\Main\ORM\Query\Query->buildQuery()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:937
+OTUS - #5: Bitrix\Main\ORM\Query\Query->exec()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:1001
+OTUS - #6: Bitrix\Main\ORM\Query\Query->fetchAll()
+OTUS - 	/home/c/cc67951/public_html/cars/orm-custom-model.php:37
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-02-08 17:14:03 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+OTUS - Class "СarsTable" not found (0)
+OTUS - /home/c/cc67951/public_html/cars/orm-custom-model.php:19
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-02-08 17:14:21 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+OTUS - Class "СarsTable" not found (0)
+OTUS - /home/c/cc67951/public_html/cars/orm-custom-model.php:19
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-02-08 17:15:08 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+OTUS - Class "СarsTable" not found (0)
+OTUS - /home/c/cc67951/public_html/cars/orm-custom-model.php:41
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-02-08 20:02:45 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+OTUS - Unknown method `getProcIdsMulti` for object `Bitrix\Iblock\Elements\EO_ElementDoctors` (0)
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:1362
+OTUS - #0: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
+OTUS - 	/home/c/cc67951/public_html/doctors/multi.php:24
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-02-08 20:04:37 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+OTUS - Unknown method `getProcIdsMulti` for object `Bitrix\Iblock\Elements\EO_ElementDoctors` (0)
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:1362
+OTUS - #0: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
+OTUS - 	/home/c/cc67951/public_html/doctors/multi.php:24
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-02-08 20:29:27 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [RuntimeException] 
+OTUS - Could not start session because headers have already been sent. "/home/c/cc67951/public_html/doctors/index.php":1. (0)
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/lib/session/session.php:144
+OTUS - #0: Bitrix\Main\Session\Session->start()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/session/kernelsessionproxy.php:47
+OTUS - #1: Bitrix\Main\Session\KernelSessionProxy->start()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/include.php:181
+OTUS - #2: require_once(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/include/prolog_before.php:19
+OTUS - #3: require_once(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/include/prolog.php:10
+OTUS - #4: require_once(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/header.php:1
+OTUS - #5: require(string)
+OTUS - 	/home/c/cc67951/public_html/doctors/index.php:26
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-02-08 20:32:28 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [RuntimeException] 
+OTUS - Could not start session because headers have already been sent. "/home/c/cc67951/public_html/doctors/index.php":1. (0)
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/lib/session/session.php:144
+OTUS - #0: Bitrix\Main\Session\Session->start()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/session/kernelsessionproxy.php:47
+OTUS - #1: Bitrix\Main\Session\KernelSessionProxy->start()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/include.php:181
+OTUS - #2: require_once(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/include/prolog_before.php:19
+OTUS - #3: require_once(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/include/prolog.php:10
+OTUS - #4: require_once(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/header.php:1
+OTUS - #5: require(string)
+OTUS - 	/home/c/cc67951/public_html/doctors/index.php:6
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-02-08 21:35:50 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+OTUS - Class "DoctorsTable" not found (0)
+OTUS - /home/c/cc67951/public_html/doctors/index.php:19
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-02-08 21:37:15 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+OTUS - Unknown field definition `ID` (ID) for \Models\Lists\DoctorsPropertyValues Entity. (100)
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+OTUS - #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:3485
+OTUS - #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:1215
+OTUS - #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:2451
+OTUS - #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:937
+OTUS - #4: Bitrix\Main\ORM\Query\Query->exec()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:987
+OTUS - #5: Bitrix\Main\ORM\Query\Query->fetch()
+OTUS - 	/home/c/cc67951/public_html/doctors/index.php:22
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-02-08 21:38:28 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+OTUS - Unknown field definition `ID` (ID) for \Models\Lists\DoctorsPropertyValues Entity. (100)
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+OTUS - #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:3485
+OTUS - #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:1215
+OTUS - #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:2451
+OTUS - #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:937
+OTUS - #4: Bitrix\Main\ORM\Query\Query->exec()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:987
+OTUS - #5: Bitrix\Main\ORM\Query\Query->fetch()
+OTUS - 	/home/c/cc67951/public_html/doctors/index.php:22
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-02-08 21:39:32 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\SqlQueryException] 
+OTUS - Mysql query error: (1146) Table 'cc67951_b24.b_iblock_element_prop_s19' doesn't exist (400)
+OTUS - SELECT 
+OTUS - 	`models_lists_doctors_property_values`.`PROPERTY_74` AS `NAME`,
+OTUS - 	`models_lists_doctors_property_values`.`IBLOCK_ELEMENT_ID` AS `UALIAS_0`
+OTUS - FROM `b_iblock_element_prop_s19` `models_lists_doctors_property_values` 
+OTUS - 
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:149
+OTUS - #0: Bitrix\Main\DB\MysqliConnection->queryInternal(string, array, NULL)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/db/connection.php:331
+OTUS - #1: Bitrix\Main\DB\Connection->query(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:3577
+OTUS - #2: Bitrix\Main\ORM\Query\Query->query(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:956
+OTUS - #3: Bitrix\Main\ORM\Query\Query->exec()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:987
+OTUS - #4: Bitrix\Main\ORM\Query\Query->fetch()
+OTUS - 	/home/c/cc67951/public_html/doctors/index.php:22
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-02-08 21:40:46 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\SqlQueryException] 
+OTUS - Mysql query error: (1146) Table 'cc67951_b24.b_iblock_element_prop_s19' doesn't exist (400)
+OTUS - SELECT 
+OTUS - 	`models_lists_doctors_property_values`.`PROPERTY_74` AS `NAME`,
+OTUS - 	`models_lists_doctors_property_values`.`IBLOCK_ELEMENT_ID` AS `UALIAS_0`
+OTUS - FROM `b_iblock_element_prop_s19` `models_lists_doctors_property_values` 
+OTUS - 
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:149
+OTUS - #0: Bitrix\Main\DB\MysqliConnection->queryInternal(string, array, NULL)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/db/connection.php:331
+OTUS - #1: Bitrix\Main\DB\Connection->query(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:3577
+OTUS - #2: Bitrix\Main\ORM\Query\Query->query(string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:956
+OTUS - #3: Bitrix\Main\ORM\Query\Query->exec()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:987
+OTUS - #4: Bitrix\Main\ORM\Query\Query->fetch()
+OTUS - 	/home/c/cc67951/public_html/doctors/index.php:22
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-02-08 22:02:43 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+OTUS - Unknown field definition `ID` (ID) for \Models\Lists\DoctorsPropertyValues Entity. (100)
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+OTUS - #0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:3485
+OTUS - #1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:1215
+OTUS - #2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:2451
+OTUS - #3: Bitrix\Main\ORM\Query\Query->buildQuery()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:937
+OTUS - #4: Bitrix\Main\ORM\Query\Query->exec()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:1001
+OTUS - #5: Bitrix\Main\ORM\Query\Query->fetchAll()
+OTUS - 	/home/c/cc67951/public_html/doctors/index.php:22
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-02-12 16:31:59 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\ArgumentException] 
+OTUS - Alias "NAME" matches already existing field "NAME" of initial entity "\Models\Lists\DoctorsPropertyValues". Please choose another name for alias. (100)
+OTUS - /home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:1265
+OTUS - #0: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, string)
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:2451
+OTUS - #1: Bitrix\Main\ORM\Query\Query->buildQuery()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:937
+OTUS - #2: Bitrix\Main\ORM\Query\Query->exec()
+OTUS - 	/home/c/cc67951/public_html/bitrix/modules/main/lib/orm/query/query.php:987
+OTUS - #3: Bitrix\Main\ORM\Query\Query->fetch()
+OTUS - 	/home/c/cc67951/public_html/doctors/debug.php:20
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-02-12 16:43:46 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+OTUS - Class "Models\Lists\ProcsPropertyValuesTable" not found (0)
+OTUS - /home/c/cc67951/public_html/doctors/index.php:53
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-02-12 17:43:12 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+OTUS - array_map(): Argument #2 ($array) must be of type array, null given (0)
+OTUS - /home/c/cc67951/public_html/doctors/index.php:49
+OTUS - #0: array_map(object, NULL)
+OTUS - 	/home/c/cc67951/public_html/doctors/index.php:49
+OTUS - ----------
+OTUS - 
+OTUS - OTUS - 2025-02-12 17:43:23 - Host: cc67951.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+OTUS - array_map(): Argument #2 ($array) must be of type array, null given (0)
+OTUS - /home/c/cc67951/public_html/doctors/index.php:49
+OTUS - #0: array_map(object, NULL)
+OTUS - 	/home/c/cc67951/public_html/doctors/index.php:49
+OTUS - ----------
+OTUS - 
+OTUS - 
